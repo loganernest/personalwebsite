@@ -26,8 +26,10 @@
 }
 
 .body {
-  color: #fff;
+  color: #295c35;
   background-color: #ddd;
+  margin-top: .125em;
+  margin-bottom: .125em;
   font-family: Naturebeauty, Arial, sans-serif;
 }
 
@@ -162,8 +164,9 @@
 }
 
 .nav-menu {
+  margin-top: 25px;
   margin-left: 0;
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .image-2 {
@@ -215,6 +218,7 @@
   font-family: Naturebeauty, Arial, sans-serif;
   font-size: 4em;
   font-weight: 700;
+  line-height: 1em;
   display: flex;
 }
 
@@ -298,9 +302,12 @@
 }
 
 .div-block-4 {
+  color: #295c35;
   text-align: center;
   margin-top: 0;
   padding-top: 60px;
+  font-size: 3em;
+  line-height: 3em;
 }
 
 .container-3 {
@@ -505,6 +512,28 @@
   overflow: auto;
 }
 
+.text-block-4 {
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  height: .5em;
+  margin-top: 40px;
+  padding-top: 0;
+  font-size: 4em;
+  font-weight: 400;
+  display: block;
+  position: relative;
+}
+
+.logan-henry {
+  width: 20%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 500%;
+  line-height: 100%;
+}
+
 @media screen and (max-width: 991px) {
   .collection-item {
     width: 50%;
@@ -581,12 +610,17 @@
     width: auto;
   }
 
+  .icon {
+    background-color: #ddd;
+  }
+
   .menu-button {
     box-sizing: border-box;
     object-fit: fill;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    margin-top: 20px;
+    padding-top: 0;
     display: block;
     overflow: visible;
   }
@@ -608,6 +642,11 @@
   }
 
   .heading-2 {
+    margin-top: 15px;
+    font-size: 2em;
+  }
+
+  .page-heading {
     font-size: 2em;
   }
 
@@ -642,6 +681,14 @@
     width: 100%;
     min-width: auto;
     padding-top: 10px;
+  }
+
+  .div-block-5 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-size: .75em;
+    display: flex;
   }
 }
 
