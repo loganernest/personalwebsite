@@ -1264,12 +1264,8 @@ h1 {
   transition: color .35s;
 }
 
-.dropdown-nav-link---brix:hover {
+.dropdown-nav-link---brix:hover, .dropdown-nav-link---brix.w--current {
   color: #295c35;
-}
-
-.dropdown-nav-link---brix.w--current {
-  color: #4a3aff;
 }
 
 .nav-link---brix {
@@ -1282,6 +1278,10 @@ h1 {
 
 .nav-link---brix:hover {
   color: #4a3aff;
+}
+
+.project-video-div {
+  width: 20em;
 }
 
 @media screen and (max-width: 991px) {
@@ -1755,6 +1755,10 @@ h1 {
   .code-embed {
     font-size: 20px;
     line-height: 20px;
+  }
+
+  .project-video-div {
+    width: 6em;
   }
 }
 
