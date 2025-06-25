@@ -6,6 +6,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: Toxigenesis Bd;
+  src: url('../fonts/toxigenesis-bd.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -237,11 +245,12 @@ h1 {
   margin-top: 8px;
   margin-bottom: 0;
   padding-top: 0;
-  font-family: Naturebeauty, Arial, sans-serif;
+  font-family: Toxigenesis Bd, Impact, sans-serif;
   font-size: 4em;
   font-weight: 700;
   line-height: 1em;
   display: block;
+  position: static;
 }
 
 .div-block-3 {
@@ -286,6 +295,7 @@ h1 {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
+  font-family: Toxigenesis Bd, Impact, sans-serif;
   font-size: 3em;
 }
 
@@ -750,7 +760,7 @@ h1 {
   margin-top: 100px;
   margin-bottom: 60px;
   padding-top: 0;
-  font-family: Naturebeauty, Arial, sans-serif;
+  font-family: Toxigenesis Bd, Impact, sans-serif;
   font-size: 4em;
   font-weight: 700;
   line-height: 1em;
@@ -1766,6 +1776,13 @@ h1 {
 @font-face {
   font-family: 'Naturebeauty';
   src: url('../fonts/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Toxigenesis Bd';
+  src: url('../fonts/toxigenesis-bd.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
